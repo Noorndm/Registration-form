@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admission Form</title>
+  <style>
+    tr    {
+      background: LavenderBlush;
+      font-family: century Gothic;
+      font-size: 13pt;
+    }
+  </style>
+</head>
+<body bgcolor="white">
+  <center>
+    <img src="img/logo3.png" alt="university" width="170">
+    <h1 style="font-family: Elephant; font-size: 25pt;">Application For Admission</h1>
+    <h2 style="font-family: Century Gothic; font-size: 15pt;">Program 2024/2025</h2>
+    <form>
+      <table border="2" width="500" cellspacing="0" cellpadding="6">
+        <tr>
+          <th colspan="2" style="background: maroon; color: white; font-size: 15pt; font-family: Century Gothic;">Personal Information</th>
+        </tr>
+        <tr>
+          <td width="150"><b>First Name:</b></td>
+          <td><input type="text" placeholder="First Name" required title="Required Field"></td>
+        </tr>
+        <tr>
+          <td><b>Last Name:</b></td>
+          <td><input type="text" placeholder="Last Name"></td>
+        </tr>
+        <tr>
+          <td><b>Father Name:</b></td>
+          <td><input type="text" placeholder="Father Name"></td>
+        </tr>
+        <tr>
+        <td><b>Date of Birth:</b></td>
+        <td><input type="date" placeholder="Date of Birth"></td>
+        </tr>
+        <tr>
+          <td><b>Gender:</b></td>
+          <td><input type="radio" name="G">Male<input type="radio" name="G">Female</td>
+        </tr>
+        <tr>
+          <td><b>Age:</b></td>
+          <td><input type="number" min="18" max="40"></td>
+        </tr>
+        <tr>
+          <td><b>Mobile No:</b></td>
+          <td><input type="tel" placeholder="Mobile No"></td>
+        </tr>
+        <tr>
+          <td><b>Email:</b></td>
+          <td><input type="email" placeholder="Email Here."></td>
+        </tr>
+        <tr>
+          <td><b>Courses Offering:</b></td>
+          <td><select name="course" id="course">
+            <option value="Select Course">Select Course</option>
+            <option value="Computer Science.">Computer Science.</option>
+            <option value="Human Biology.">Human Biology.</option>
+            <option value="Economics.">Economics.</option> 
+            <option value="Political Science.">Political Science.</option> 
+            <option value="Management Science & Engineering.">Management Science & Engineering.</option> 
+            <option value="Psychology.">Psychology.</option>
+          </select></td>
+        </tr>
+        <tr>
+          <td><b>Country:</b></td>
+          <td><select name="Countries" id="Countries">
+            <option value="">Select Country</option>
+            <option value="">Australia</option>
+            <option value="">America</option>
+            <option value="">Canada</option>
+            <option value="">China</option>
+            <option value="">Germany</option>
+            <option value="">India</option>
+            <option value="">Japan</option>
+            <option value="">New Zealand</option>
+            <option value="">Pakistan</option>
+            <option value="">Russia</option>
+          </select></td>
+        </tr>
+        <tr>
+          <td><b>Resident Address:</b></td>
+          <td><textarea rows="2" placeholder="Your Address Here."></textarea></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><button type="submit" style="
+          font-size: 16px; 
+          border-radius: 5px; 
+          background-color: white; 
+          color: maroon;"> 
+          Submit
+          </button>
+          <button type="reset" style="
+          font-size: 16px; 
+          border-radius: 5px; 
+          background-color: white; 
+          color: maroon;"> 
+          Reset
+      </button></td>
+        </tr>
+      </table>
+    </form>
+</center>
+</body>
+</html>
